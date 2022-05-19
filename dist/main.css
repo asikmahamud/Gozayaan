@@ -733,6 +733,10 @@ h1,
   max-height: 94vh;
 }
 
+.max-h-\[85vh\] {
+  max-height: 85vh;
+}
+
 .w-6 {
   width: 1.5rem;
 }
