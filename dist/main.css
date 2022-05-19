@@ -725,6 +725,14 @@ h1,
   max-height: 92vh;
 }
 
+.max-h-\[88vh\] {
+  max-height: 88vh;
+}
+
+.max-h-\[94vh\] {
+  max-height: 94vh;
+}
+
 .w-6 {
   width: 1.5rem;
 }
@@ -1055,6 +1063,10 @@ h1,
 
 .pb-16 {
   padding-bottom: 4rem;
+}
+
+.pt-6 {
+  padding-top: 1.5rem;
 }
 
 .text-center {
