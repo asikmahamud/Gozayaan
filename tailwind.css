@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        font-family:Helvetica,Arial,serif;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family:Gilroy,Helvetica,Arial,serif;
+        font-weight: 700
+    }
+}
+
+
+@layer components{
+    .primary-btn{
+        @apply rounded-md py-2 px-6 transition text-sm font-semibold inline-block
+    }
+}
