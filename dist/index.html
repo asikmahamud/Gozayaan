@@ -113,7 +113,7 @@
             </div>
         </div>
         <!-- md:footer -->
-        <footer class="lg:hidden fixed z-30 bottom-0 bg-white w-full h-16 flex items-center justify-between">
+        <footer class="lg:hidden fixed z-30 bottom-0 bg-white w-full h-16 flex shadow-lg items-center justify-between">
             <ul class="flex basis-full">
                 <li class="basis-full"><a href="#" class="flex flex-col justify-center items-center">
                         <img src="img/home.svg" class="w-5 h-5">
@@ -139,85 +139,87 @@
     <!-- location-tour -->
     <div class="py-4 bg-white">
         <div class="container lg:flex lg:justify-between">
-            <div id="search-bar" class="relative border border-gray-200 py-2 px-3 basis-full rounded-md cursor-pointer">
-                <span class="text-xs font-normal font-sans text-gray-500">LOCATION/ TOUR</span>
-                <h4 class="text-lg text-primary">Cox's Bazar</h4>
+            <div class="relative w-full">
+                <div id="search-bar" class="border border-gray-200 py-2 px-3 basis-full rounded-md cursor-pointer">
+                    <span class="text-xs font-normal font-sans text-gray-500">LOCATION/ TOUR</span>
+                    <h4 class="text-lg text-primary">Cox's Bazar</h4>
+                </div>
                 <!-- search-location -->
                 <div id="wrapper-cart"
-                    class="hidden absolute top-[calc(100%+15px);] left-0 shadow-md shadow-gray-300 bg-white w-full">
-                    <div class="relative py-3 px-4">
-                        <input type="text" placeholder="Type to search"
-                            class="text-sm focus:outline-none font-sans w-full pl-6 bg-no-repeat bg-contain"
-                            style="background-image: url(img/icon-search.cc2df838.svg)">
+                class="hidden absolute top-[calc(100%+15px);] left-0 shadow-md shadow-gray-300 bg-white w-full">
+                <div class="relative py-3 px-4">
+                    <input type="text" placeholder="Type to search"
+                        class="text-sm focus:outline-none font-sans w-full pl-6 bg-no-repeat bg-contain"
+                        style="background-image: url(img/icon-search.cc2df838.svg)">
+                </div>
+                <div class="border-t border-gray-200 max-h-72 overflow-y-auto">
+                    <div class="flex items-center px-3 py-2 hover:bg-background-color cursor-pointer">
+                        <img src="img/map-marker-grey.7657ad0b.svg" class="w-3 mr-2">
+                        <span class="text-sm text-gray-600">Cox's Bazar</span>
                     </div>
-                    <div class="border-t border-gray-200 max-h-72 overflow-y-auto">
-                        <div class="flex items-center px-3 py-2 hover:bg-background-color cursor-pointer">
-                            <img src="img/map-marker-grey.7657ad0b.svg" class="w-3 mr-2">
-                            <span class="text-sm text-gray-600">Cox's Bazar</span>
-                        </div>
-                        <div class="flex items-center px-3 py-2 hover:bg-background-color cursor-pointer">
-                            <img src="img/map-marker-grey.7657ad0b.svg" class="w-3 mr-2">
-                            <span class="text-sm text-gray-600">Cox's Bazar</span>
-                        </div>
-                        <div class="flex items-center px-3 py-2 hover:bg-background-color cursor-pointer">
-                            <img src="img/map-marker-grey.7657ad0b.svg" class="w-3 mr-2">
-                            <span class="text-sm text-gray-600">Sajek</span>
-                        </div>
-                        <div class="flex items-center px-3 py-2 hover:bg-background-color cursor-pointer">
-                            <img src="img/map-marker-grey.7657ad0b.svg" class="w-3 mr-2">
-                            <span class="text-sm text-gray-600">Tanguar Haor</span>
-                        </div>
-                        <div class="flex items-center px-3 py-2 hover:bg-background-color cursor-pointer">
-                            <img src="img/map-marker-grey.7657ad0b.svg" class="w-3 mr-2">
-                            <span class="text-sm text-gray-600">Rangamati</span>
-                        </div>
-                        <div class="flex items-center px-3 py-2 hover:bg-background-color cursor-pointer">
-                            <img src="img/map-marker-grey.7657ad0b.svg" class="w-3 mr-2">
-                            <span class="text-sm text-gray-600">Bandarban</span>
-                        </div>
-                        <div class="flex items-center px-3 py-2 hover:bg-background-color cursor-pointer">
-                            <img src="img/map-marker-grey.7657ad0b.svg" class="w-3 mr-2">
-                            <span class="text-sm text-gray-600">Chattogram</span>
-                        </div>
-                        <div class="flex items-center px-3 py-2 hover:bg-background-color cursor-pointer">
-                            <img src="img/map-marker-grey.7657ad0b.svg" class="w-3 mr-2">
-                            <span class="text-sm text-gray-600">Tangail</span>
-                        </div>
-                        <div class="flex items-center px-3 py-2 hover:bg-background-color cursor-pointer">
-                            <img src="img/map-marker-grey.7657ad0b.svg" class="w-3 mr-2">
-                            <span class="text-sm text-gray-600">Sylhet</span>
-                        </div>
-                        <div class="flex items-center px-3 py-2 hover:bg-background-color cursor-pointer">
-                            <img src="img/map-marker-grey.7657ad0b.svg" class="w-3 mr-2">
-                            <span class="text-sm text-gray-600">Sundarbans</span>
-                        </div>
-                        <div class="flex items-center px-3 py-2 hover:bg-background-color cursor-pointer">
-                            <img src="img/map-marker-grey.7657ad0b.svg" class="w-3 mr-2">
-                            <span class="text-sm text-gray-600">Dhaka</span>
-                        </div>
-                        <div class="flex items-center px-3 py-2 hover:bg-background-color cursor-pointer">
-                            <img src="img/map-marker-grey.7657ad0b.svg" class="w-3 mr-2">
-                            <span class="text-sm text-gray-600">Gazipur</span>
-                        </div>
-                        <div class="flex items-center px-3 py-2 hover:bg-background-color cursor-pointer">
-                            <img src="img/map-marker-grey.7657ad0b.svg" class="w-3 mr-2">
-                            <span class="text-sm text-gray-600">Istanbul</span>
-                        </div>
-                        <div class="flex items-center px-3 py-2 hover:bg-background-color cursor-pointer">
-                            <img src="img/map-marker-grey.7657ad0b.svg" class="w-3 mr-2">
-                            <span class="text-sm text-gray-600">Turkey</span>
-                        </div>
-                        <div class="flex items-center px-3 py-2 hover:bg-background-color cursor-pointer">
-                            <img src="img/map-marker-grey.7657ad0b.svg" class="w-3 mr-2">
-                            <span class="text-sm text-gray-600">Maldives</span>
-                        </div>
-                        <div class="flex items-center px-3 py-2 hover:bg-background-color cursor-pointer">
-                            <img src="img/map-marker-grey.7657ad0b.svg" class="w-3 mr-2">
-                            <span class="text-sm text-gray-600">Nepal</span>
-                        </div>
+                    <div class="flex items-center px-3 py-2 hover:bg-background-color cursor-pointer">
+                        <img src="img/map-marker-grey.7657ad0b.svg" class="w-3 mr-2">
+                        <span class="text-sm text-gray-600">Cox's Bazar</span>
+                    </div>
+                    <div class="flex items-center px-3 py-2 hover:bg-background-color cursor-pointer">
+                        <img src="img/map-marker-grey.7657ad0b.svg" class="w-3 mr-2">
+                        <span class="text-sm text-gray-600">Sajek</span>
+                    </div>
+                    <div class="flex items-center px-3 py-2 hover:bg-background-color cursor-pointer">
+                        <img src="img/map-marker-grey.7657ad0b.svg" class="w-3 mr-2">
+                        <span class="text-sm text-gray-600">Tanguar Haor</span>
+                    </div>
+                    <div class="flex items-center px-3 py-2 hover:bg-background-color cursor-pointer">
+                        <img src="img/map-marker-grey.7657ad0b.svg" class="w-3 mr-2">
+                        <span class="text-sm text-gray-600">Rangamati</span>
+                    </div>
+                    <div class="flex items-center px-3 py-2 hover:bg-background-color cursor-pointer">
+                        <img src="img/map-marker-grey.7657ad0b.svg" class="w-3 mr-2">
+                        <span class="text-sm text-gray-600">Bandarban</span>
+                    </div>
+                    <div class="flex items-center px-3 py-2 hover:bg-background-color cursor-pointer">
+                        <img src="img/map-marker-grey.7657ad0b.svg" class="w-3 mr-2">
+                        <span class="text-sm text-gray-600">Chattogram</span>
+                    </div>
+                    <div class="flex items-center px-3 py-2 hover:bg-background-color cursor-pointer">
+                        <img src="img/map-marker-grey.7657ad0b.svg" class="w-3 mr-2">
+                        <span class="text-sm text-gray-600">Tangail</span>
+                    </div>
+                    <div class="flex items-center px-3 py-2 hover:bg-background-color cursor-pointer">
+                        <img src="img/map-marker-grey.7657ad0b.svg" class="w-3 mr-2">
+                        <span class="text-sm text-gray-600">Sylhet</span>
+                    </div>
+                    <div class="flex items-center px-3 py-2 hover:bg-background-color cursor-pointer">
+                        <img src="img/map-marker-grey.7657ad0b.svg" class="w-3 mr-2">
+                        <span class="text-sm text-gray-600">Sundarbans</span>
+                    </div>
+                    <div class="flex items-center px-3 py-2 hover:bg-background-color cursor-pointer">
+                        <img src="img/map-marker-grey.7657ad0b.svg" class="w-3 mr-2">
+                        <span class="text-sm text-gray-600">Dhaka</span>
+                    </div>
+                    <div class="flex items-center px-3 py-2 hover:bg-background-color cursor-pointer">
+                        <img src="img/map-marker-grey.7657ad0b.svg" class="w-3 mr-2">
+                        <span class="text-sm text-gray-600">Gazipur</span>
+                    </div>
+                    <div class="flex items-center px-3 py-2 hover:bg-background-color cursor-pointer">
+                        <img src="img/map-marker-grey.7657ad0b.svg" class="w-3 mr-2">
+                        <span class="text-sm text-gray-600">Istanbul</span>
+                    </div>
+                    <div class="flex items-center px-3 py-2 hover:bg-background-color cursor-pointer">
+                        <img src="img/map-marker-grey.7657ad0b.svg" class="w-3 mr-2">
+                        <span class="text-sm text-gray-600">Turkey</span>
+                    </div>
+                    <div class="flex items-center px-3 py-2 hover:bg-background-color cursor-pointer">
+                        <img src="img/map-marker-grey.7657ad0b.svg" class="w-3 mr-2">
+                        <span class="text-sm text-gray-600">Maldives</span>
+                    </div>
+                    <div class="flex items-center px-3 py-2 hover:bg-background-color cursor-pointer">
+                        <img src="img/map-marker-grey.7657ad0b.svg" class="w-3 mr-2">
+                        <span class="text-sm text-gray-600">Nepal</span>
                     </div>
                 </div>
-                <!-- search-location-end -->
+            </div>
+            <!-- search-location-end -->
             </div>
             <!-- modify-btn -->
             <div class="lg:ml-3 mt-4 lg:mt-0"><button
@@ -232,7 +234,7 @@
         <div class="container lg:flex">
             <!-- left filter -->
             <div id="filter-cart"
-                class="bg-white lg:w-1/4 rounded-md pt-6 md:pt-0 fixed w-screen md:w-auto max-h-[85vh] overflow-y-auto z-40 md:overflow-y-hidden left-0 -bottom-full transition-all duration-500 md:static">
+                class="bg-white lg:w-1/4 rounded-md pt-6 md:pt-0 fixed w-screen md:w-auto max-h-[85vh] md:max-h-full overflow-y-auto md:overflow-y-hidden left-0 -bottom-full transition-all duration-500 md:static">
                 <div class="p-4 border-b border-gray-200">
                     <div class="flex justify-between items-center mb-4">
                         <h5 class="text-base text-primary font-sans">Destination: 17 places found</h5>
@@ -285,37 +287,29 @@
                     <div class="py-4 border-b border-gray-200">
                         <h5 class="text-base text-primary font-sans mb-2">Time</h5>
                         <div class="flex w-full">
-                            <div class="relative border border-gray-300 basis-full rounded-l-md">
-                                <input type="checkbox" id="click-5"
-                                    class="absolute left-0 w-full h-full cursor-pointer opacity-0">
-                                <label for="click-5" class="flex flex-col items-center p-2">
+                            <div class="relative border border-brdr basis-full rounded-l-md">
+                                <div class="flex flex-col items-center p-2">
                                     <img src="img/weather-1.svg" class="w-5 h-5">
                                     <span class="text-xs font-sans text-primary font-medium">00-06</span>
-                                </label>
+                                </div>
                             </div>
-                            <div class="relative border border-gray-300 basis-full">
-                                <input type="checkbox" id="click-5"
-                                    class="absolute left-0 w-full h-full cursor-pointer opacity-0">
-                                <label for="click-5" class="flex flex-col items-center p-2">
+                            <div class="relative border border-brdr basis-full">
+                                <div class="flex flex-col items-center p-2">
                                     <img src="img/weather-1.svg" class="w-5 h-5">
                                     <span class="text-xs font-sans text-primary font-medium">00-06</span>
-                                </label>
+                                </div>
                             </div>
-                            <div class="relative border border-gray-300 basis-full">
-                                <input type="checkbox" id="click-5"
-                                    class="absolute left-0 w-full h-full cursor-pointer opacity-0">
-                                <label for="click-5" class="flex flex-col items-center p-2">
+                            <div class="relative border border-brdr basis-full">
+                                <div class="flex flex-col items-center p-2">
                                     <img src="img/weather-2.svg" class="w-5 h-5">
                                     <span class="text-xs font-sans text-primary font-medium">00-06</span>
-                                </label>
+                                </div>
                             </div>
-                            <div class="relative border border-gray-300 basis-full rounded-r-md">
-                                <input type="checkbox" id="click-5"
-                                    class="absolute left-0 w-full h-full cursor-pointer opacity-0">
-                                <label for="click-5" class="flex flex-col items-center p-2">
+                            <div class="relative border border-brdr basis-full rounded-r-md">
+                                <div class="flex flex-col items-center p-2">
                                     <img src="img/weather-3.svg" class="w-5 h-5">
                                     <span class="text-xs font-sans text-primary font-medium">00-06</span>
-                                </label>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -324,27 +318,27 @@
                         <h5 class="text-base text-primary font-sans mb-2">Tags</h5>
                         <div class="flex items-center gap-1 mb-3">
                             <input type="checkbox" id="click-10" class="w-4 h-4 cursor-pointer">
-                            <label for="click-10" class="text-xs font-sans text-gray-600 cursor-pointer">Go Zayaan
+                            <label for="click-10" class="text-xs font-sans text-gray-500 cursor-pointer">Go Zayaan
                                 Exclusive</label>
                         </div>
                         <div class="flex items-center gap-1 mb-3">
                             <input type="checkbox" id="click-11" class="w-4 h-4 cursor-pointer">
-                            <label for="click-11" class="text-xs font-sans text-gray-600 cursor-pointer">Family
+                            <label for="click-11" class="text-xs font-sans text-gray-500 cursor-pointer">Family
                                 friendly</label>
                         </div>
                         <div class="flex items-center gap-1 mb-3">
                             <input type="checkbox" id="click-12" class="w-4 h-4 cursor-pointer">
-                            <label for="click-12" class="text-xs font-sans text-gray-600 cursor-pointer">Tickets &
+                            <label for="click-12" class="text-xs font-sans text-gray-500 cursor-pointer">Tickets &
                                 Passes</label>
                         </div>
                         <div class="flex items-center gap-1 mb-3">
                             <input type="checkbox" id="click-13" class="w-4 h-4 cursor-pointer">
-                            <label for="click-13" class="text-xs font-sans text-gray-600 cursor-pointer">Boat
+                            <label for="click-13" class="text-xs font-sans text-gray-500 cursor-pointer">Boat
                                 Rental</label>
                         </div>
                         <div class="flex items-center gap-1 mb-3">
                             <input type="checkbox" id="click-14" class="w-4 h-4 cursor-pointer">
-                            <label for="click-14" class="text-xs font-sans text-gray-600 cursor-pointer">Beach
+                            <label for="click-14" class="text-xs font-sans text-gray-500 cursor-pointer">Beach
                                 Activity</label>
                         </div>
                         <div class="text-right">
@@ -394,7 +388,7 @@
                 <!-- tour-details -->
                 <div class="p-4 mb-4 bg-white md:flex rounded-md">
                     <!-- img -->
-                    <div class="w-72 h-44"><img src="img/image-1.jpg" class="w-full h-full"></div>
+                    <div class="w-64 h-40"><img src="img/image-1.jpg" class="w-full h-full"></div>
                     <div class="md:ml-4 sm:flex mt-4 md:mt-0">
                         <div class="flex justify-between flex-col h-full">
                             <div>
@@ -448,7 +442,7 @@
                     </div>
                 </div>
                 <div class="p-4 mb-4 bg-white md:flex rounded-md">
-                    <div class="w-72 h-44"><img src="img/image-1.jpg" class="w-full h-full"></div>
+                    <div class="w-64 h-40"><img src="img/image-1.jpg" class="w-full h-full"></div>
                     <div class="md:ml-4 sm:flex mt-4 md:mt-0">
                         <div class="flex justify-between flex-col h-full">
                             <div>
@@ -501,7 +495,7 @@
                     </div>
                 </div>
                 <div class="p-4 mb-4 bg-white md:flex rounded-md">
-                    <div class="w-72 h-44"><img src="img/image-1.jpg" class="w-full h-full"></div>
+                    <div class="w-64 h-40"><img src="img/image-1.jpg" class="w-full h-full"></div>
                     <div class="md:ml-4 sm:flex mt-4 md:mt-0">
                         <div class="flex justify-between flex-col h-full">
                             <div>

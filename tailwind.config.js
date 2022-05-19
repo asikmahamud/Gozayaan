@@ -11,7 +11,9 @@ module.exports = {
        'primary' : '#1C3C6B',
         'secondary' : '#FCCD03',
          'background-color' : '#EBF0F4',
-         'bg' : '#4963D1'
+         'bg' : '#4963D1',
+         'brdr' : '#bcc9dc',
+         
    }
     },
     container:{
